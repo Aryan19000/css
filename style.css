@@ -1,0 +1,36 @@
+h1{
+    text-align:center;
+    color:#4ff825
+}
+h2, p{
+    text-align:center;
+    color:#1a1919;
+    font-style: italic;
+    font-size:20px;
+    font-weight:bold
+}
+h2{
+    font-size:26px;  
+}
+.header{
+    /*background:linear-gradient(to right ,#f3c80b, #b5d81a, #f3c80b);*/
+    background-color:#2e2b2b;
+    display:flex;
+    justify-content:space-between;
+}
+/* .menu{
+    display:flex;
+    flex-wrap:wrap;
+} */
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.footer{
+    display:flex;
+    justify-content:flex-end;
+}
+body{
+    background:linear-gradient(#d8f866, #4ff825, #d8f866);
+}
